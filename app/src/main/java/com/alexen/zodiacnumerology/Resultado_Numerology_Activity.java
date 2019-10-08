@@ -15,7 +15,7 @@ public class Resultado_Numerology_Activity extends AppCompatActivity {
         Intent intentCalcular = getIntent();
         int day = intentCalcular.getIntExtra("Dia", 0);
         TextView textViewName = findViewById(R.id.textViewUserName);
-        textViewName.setText(day);
+        textViewName.setText(String.valueOf(day));
 
 
 
