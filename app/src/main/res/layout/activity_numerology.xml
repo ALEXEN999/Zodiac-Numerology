@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Numerology_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Introduce_Fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:text="introduce tu fecha de nacimiento"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="46dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Day_Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/dia"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Month_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/mes"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Year_Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/a_o"
+            android:inputType="number"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/button_Calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="302dp"
+            app:srcCompat="@android:drawable/ic_menu_help"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

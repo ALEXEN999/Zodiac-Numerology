@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zodiac&amp;Numerology</string>
+    <string name="zodiac">Zodiac</string>
+    <string name="numerology">Numerology</string>
+    <string name="introduce_tu_fecha_de_nacimiento">introduce_tu_fecha_de_nacimiento</string>
+    <string name="dia">Dia</string>
+    <string name="mes">Mes</string>
+    <string name="a_o">Año</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="calcular">Calcular</string>
+    <string name="textview">TextView</string>
+</resources>
